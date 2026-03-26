@@ -65,11 +65,9 @@ Producers and refiners exhibit structural price relationships due to:
 
 ## 5. Rolling Stability Analysis
 
-- Cointegration held **10.2% of days overall**
-- **12.5% post-2021**
-- Static full-sample testing masked highly unstable rolling dynamics  
-
-📊 *(Insert rolling p-value / cointegration stability chart here)*
+<p align="center">
+  <img src="rolling_cointegration.png" width="700"/>
+</p>
 
 ---
 
