@@ -69,6 +69,14 @@ Producers and refiners exhibit structural price relationships due to:
   <img src="rolling_cointegration.png" width="700"/>
 </p>
 
+<p align="center">
+  <em>Rolling Engle-Granger cointegration p-values using a 1-year window. The relationship is only intermittently significant, indicating substantial structural instability and explaining weak out-of-sample performance.</em>
+</p>
+
+- Cointegration held on **10.2%** of days overall
+- Post-2021 breakdown rate: **87.5%**
+- Static full-sample testing masked unstable rolling dynamics
+
 ---
 
 ## 6. Limitations
@@ -98,6 +106,12 @@ Producers and refiners exhibit structural price relationships due to:
 - matplotlib / seaborn  
 
 ---
+## Reproducing the Analysis
+
+Install dependencies with:
+
+```bash
+pip install yfinance pandas numpy scipy statsmodels matplotlib seaborn jupyter
 
 ## Author
 **Garvikaa Aggarwal**  
